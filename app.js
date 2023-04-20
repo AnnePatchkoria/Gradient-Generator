@@ -5,6 +5,10 @@ const gradientView = document.querySelector('.gradient-view');
 const textArea = document.getElementById('textarea');
 const copy = document.querySelector('.btn.btn-primary');
 
+const backgroundImage = "url('gradient.jpg')";
+document.body.style.backgroundImage = backgroundImage;
+
+
 color1.addEventListener('change', () => {
    gradient();
 });
