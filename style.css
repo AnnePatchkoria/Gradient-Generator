@@ -1,0 +1,10 @@
+.gradient-view{
+    background: red;
+    height: 200px;
+    border-radius: 5px;
+}
+
+input{
+    height: 38px;
+}
+
